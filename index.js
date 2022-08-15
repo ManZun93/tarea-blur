@@ -116,7 +116,7 @@ size.addEventListener('input', (e)=>{
     box.style.width = `${e.target.value}px`
     box.style.height = `${e.target.value}px`
     sizeOut.value = `${e.target.value}px`
-    
+
 
 
 });
@@ -143,11 +143,7 @@ contrasting.addEventListener('input', (e)=>{
     <br>
     backdrop-filter: saturate(${saturacion}%);
     </div>
-    `  
-    
-    
-      
-
+    `      
 });
 
 
