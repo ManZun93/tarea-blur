@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
- font-family: 'Poppins';
+  font-family: 'Poppins';
 }
 
 h2 {
@@ -67,6 +67,7 @@ h2::before {
 }
 .left{
   width: 50%;
+  
 }
 .box{
   /* background-color: rgba(255, 255, 255, 0.446); */
@@ -168,37 +169,122 @@ outline: transparent;
 output{
   color: white;
 }
+
+.code-box{
+  margin-top: 60px;
+  height: 170px;
+  
+}
+
+.code-container{
+  height: 400px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 5px;
+  font-weight:lighter;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 13px;
+  background: rgba(71, 0, 204, 0.514);
+  
+  
+  
+  
+}
+
+.code-container > h3{
+  color: rgb(254, 248, 255);
+  /* margin-top: -6px; */
+}
+
+.code{
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+  background-color: rgba(247, 195, 234, 0.897);
+  height: 300px;
+  width: 100%;
+  padding: 10px 0 10px 9px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+
+
+
 @media (max-width: 620px){
   .lil-box{
     background-color: rgba(255, 255, 255, 0.296);
     width: 80%;
     height: 15%;
+    
   }
   .box-container{
    width: 100%;
    height: 100%;
+   
   }
+
   .box-container > h3{
       font-size: 11px;
       line-height:0px;
       color: white;
   }
+
   .input{
     height: 100%;
     justify-content: center;
     gap: 5px;
   }
+
   input[type=color]{
       width: 20px;
       height: 20px;
       margin-top: 0px;
       /* margin-bottom: 20px; */
   }
+  
   input[type=range]{
       width: 80%;
   }
+
   output{
       color: white;
       font-size: 14px;
   }
+
+  .code-box{
+    height: 140px;
+  }
+  
+  .code-container{
+    width: 100%;
+  }
+  
+  .code-container > h3{
+    color: white;
+    font-size: 11px;
+    margin-top: -6px;
+  }
+  
+  .code{
+    width: 80%;
+    height: 15%;
+    color: white;
+    line-height: 15px;
+    margin-top: -25px;
+    background-color: rgba(135, 83, 164, 0.432);
+    height: 90px;
+    width: 70%;
+    padding: 10px 0 10px 9px;
+    display: flex;
+    align-self: center;
+    font-size: 9.5px;
+    border-radius: 10px;
+  }
+  
 }
